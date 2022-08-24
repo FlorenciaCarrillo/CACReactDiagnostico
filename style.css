@@ -1,0 +1,44 @@
+.container {
+    border-style: solid;
+    border-color: rgb(51, 23, 4);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;
+
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#descripcion {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: blanchedalmond;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#descripcion h2 {
+    font-size: 50px;
+}
+
+#descripcion h5 {
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+#descripcion a {
+    margin-top: 50px;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(51, 23, 4);
+    font-weight: 700;
+}
